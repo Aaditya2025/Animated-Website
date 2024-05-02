@@ -1,0 +1,11 @@
+1. SMOOTH SCROLLING: It enhance the scrolling feature of our website. 
+⭕HOW TO USE SMOOTH SCROLLING: 
+    STEP1: Create new css file in which paste the loco scroll css code from Github. 
+            LINK: "https://github.com/locomotivemtl/locomotive-scroll?tab=readme-ov-file"
+    STEP2: Then paste the js code of smoth locomotive-scroll and in that code edit the queryselector to the main div of your website.
+    STEP3: Search 'locomotive-scroll.min.js' In html file paste the link of locomotive cdn into new script tag. 
+            LINK: "https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"
+    STEP4: And in last link the css file toh the html file also script js file. 
+
+2. GSAP: 
+Atach gsap code toh html.
