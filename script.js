@@ -39,7 +39,12 @@ function circleskew(){
   var xprev = 0; 
   var yprev = 0; 
 
+  document.addEventListener("mouseleave", function(leave){
+    document.querySelector("#minicircle").style.opacity="0";
+  })
+    
   window.addEventListener("mousemove", function(dets){
+    document.querySelector("#minicircle").style.opacity="1";
     clearTimeout(timeout);
     xscale = gsap.utils.clamp(0.4, 1.2, dets.clientX - xprev);
     yscale = gsap.utils.clamp(0.4, 1.2, dets.clientY - yprev); 
