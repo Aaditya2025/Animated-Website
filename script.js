@@ -4,6 +4,12 @@ const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true
 });
+ 
+const tm = document.querySelector('#footerleftsecond')
+setInterval(function(){
+  let date = new Date();
+  tm.innerHTML = date.toLocaleTimeString();
+}, 1000)
 
 function firstPageAnim() {
     var tl = gsap.timeline();
