@@ -219,8 +219,12 @@ html,body{
     color: #fff;
     text-decoration: none;
     font-size: 15px;
-
 }
+
+#about a:hover{
+    -webkit-text-fill-color: aquamarine;
+}
+
 #about h5{
     margin-bottom: 15px ;
     text-transform: uppercase;
