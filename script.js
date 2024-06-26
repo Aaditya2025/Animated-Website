@@ -113,6 +113,8 @@ document.querySelectorAll(".elem").forEach(function (elem) {
 
   elem.addEventListener("mouseleave", function (dets) {
 
+    document.querySelector("#minicircle").style.display = "flex";
+
     elem.querySelectorAll(".secfade").forEach((item)=> {
       item.style.opacity = "0.7";
     });
